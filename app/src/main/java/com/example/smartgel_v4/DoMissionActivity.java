@@ -63,7 +63,7 @@ public class DoMissionActivity extends AppCompatActivity {
 
 
 
-    private HashMap<String, Integer> userIdMap; // Declare userIdMap here
+    private HashMap<String, Integer> userIdMap; // Declare userIdMap ici
 
 
     @SuppressLint("MissingInflatedId")
@@ -233,7 +233,7 @@ public class DoMissionActivity extends AppCompatActivity {
                                 // Add user name and corresponding ID to the map
                                 userIdMap.put(fullName, idUser);
                             }
-                            //code ajouer il faut le tester
+                            //code ajouté
                             StringBuilder usersInfo = new StringBuilder();
                             for (User user : usersList) {
                                 usersInfo.append("Nom: ").append(user.getFullName()).append(", ");
